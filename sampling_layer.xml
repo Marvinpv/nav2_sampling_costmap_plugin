@@ -1,0 +1,5 @@
+<library path="nav2_sampling_costmap_plugin_core">
+  <class name="nav2_sampling_costmap_plugin/SamplingLayer" type="nav2_sampling_costmap_plugin::SamplingLayer" base_class_type="nav2_costmap_2d::Layer">
+    <description>This is a plugin that implements a pseudo PRM costmap layer</description>
+  </class>
+</library>

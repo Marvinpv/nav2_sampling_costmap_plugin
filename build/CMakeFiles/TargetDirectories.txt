@@ -1,0 +1,10 @@
+/home/marvin/UGR/TFG/software/nav2_sampling_costmap_plugin/build/CMakeFiles/uninstall.dir
+/home/marvin/UGR/TFG/software/nav2_sampling_costmap_plugin/build/CMakeFiles/nav2_sampling_costmap_plugin_uninstall.dir
+/home/marvin/UGR/TFG/software/nav2_sampling_costmap_plugin/build/CMakeFiles/nav2_sampling_costmap_plugin_core.dir
+/home/marvin/UGR/TFG/software/nav2_sampling_costmap_plugin/build/CMakeFiles/test.dir
+/home/marvin/UGR/TFG/software/nav2_sampling_costmap_plugin/build/CMakeFiles/edit_cache.dir
+/home/marvin/UGR/TFG/software/nav2_sampling_costmap_plugin/build/CMakeFiles/rebuild_cache.dir
+/home/marvin/UGR/TFG/software/nav2_sampling_costmap_plugin/build/CMakeFiles/list_install_components.dir
+/home/marvin/UGR/TFG/software/nav2_sampling_costmap_plugin/build/CMakeFiles/install.dir
+/home/marvin/UGR/TFG/software/nav2_sampling_costmap_plugin/build/CMakeFiles/install/local.dir
+/home/marvin/UGR/TFG/software/nav2_sampling_costmap_plugin/build/CMakeFiles/install/strip.dir
