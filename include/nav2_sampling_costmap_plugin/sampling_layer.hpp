@@ -48,11 +48,12 @@
 #include "rclcpp/rclcpp.hpp"
 #include "nav2_costmap_2d/layer.hpp"
 #include "nav2_costmap_2d/layered_costmap.hpp"
+#include "nav2_costmap_2d/costmap_layer.hpp"
 
 namespace nav2_sampling_costmap_plugin
 {
 
-class SamplingLayer : public nav2_costmap_2d::Layer
+class SamplingLayer : public nav2_costmap_2d::CostmapLayer
 {
 public:
   SamplingLayer();
@@ -81,6 +82,11 @@ public:
     , int min_i, int min_j, int max_i, int max_j
   );
 
+  void updateConnections(
+    nav2_costmap_2d::Costmap2D & master_grid
+    , int min_i, int min_j, int max_i, int max_j
+  );
+
 private:
   double last_min_x_, last_min_y_, last_max_x_, last_max_y_;
 
@@ -89,6 +95,8 @@ private:
   bool dummy_;
   std::vector<long int> sample_points_x_;
   std::vector<long int> sample_points_y_;
+  std::vector<long int> connections_1_;
+  std::vector<long int> connections_2_;
   // Size of sampling in cells
   int SAMPLING_SIZE = 20;
   // Step of increasing cost per one cell in sampling
